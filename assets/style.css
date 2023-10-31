@@ -22,7 +22,9 @@ body {
   font-weight: 700;
   line-height: 1.2;
   color: #1D221E;
-}.title>span {
+}
+
+.title>span {
   color: var(--accent-color);
 }
 
@@ -42,7 +44,9 @@ body {
   width: fit-content;
   font-size: 1.1rem;
   font-weight: 600;
-}.btn-primary:hover {
+}
+
+.btn-primary:hover {
   background-color: #5F8E5F;
 }
 
@@ -54,7 +58,9 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   transition: all 0.3s ease;
-}.btn-secondary:hover {
+}
+
+.btn-secondary:hover {
   background-color: #add3c6;
 }
 
