@@ -1,4 +1,4 @@
-const btn = document.querySelector('#show-prototype');
+const btn = document.querySelectorAll('.show-prototype');
 const closebtn = document.querySelector('#close-prototype');
 const prototype = document.querySelector('#prototype');
 
@@ -13,7 +13,9 @@ const openModal = () => {
 };
 
 // Abrir o modal ao clicar no botão
-btn.addEventListener('click', openModal);
+btn.forEach((button) => {
+  button.addEventListener('click', openModal);
+});
 
 closebtn.addEventListener('click', () => {
   prototype.classList.remove('active');
