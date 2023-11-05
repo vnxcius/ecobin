@@ -67,3 +67,11 @@ body {
 .hero-img {
   width: 750px;
 }
+
+#prototype {
+  display: none;
+}
+
+#prototype.active {
+  display: block;
+}
